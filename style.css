@@ -17,7 +17,9 @@ header{
     flex-direction: column;
     justify-content: justify;
     align-items: center;
+    width:100%;
 }
+
 form{
     display: flex;
     width: 100%;
@@ -25,17 +27,17 @@ form{
 
 }
 button{
-    border: 0;
+    border: 1px;
     background-image: linear-gradient(
         150deg,
-        #9500ff
-        #09f,
-        #00DDFF
+        #ffe600ad,
+        rgb(25, 255, 4),
+        #00ffb7
     );
     border-radius: 8px;
     color: #fff;
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
     padding: 4px;
     cursor: pointer;
     transition: .3s;
